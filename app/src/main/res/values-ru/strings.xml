@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Погода</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_search">Поиск</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_loc">Мое местоположние</string>
+    <string name="nav_item_search">Найти город</string>
+    <string name="nav_item_favorites">Избранное</string>
+    <string name="example">"Город или Страна,Город"</string>
+    <string name="fragment_today">Сегодня</string>
+    <string name="fragment_five_days">На пять дней</string>
+    <string name="fragment_sixteen_days">На 16 дней</string>
+    <string name="title_error_location">Упс..</string>
+    <string name="message_error_location">Неудалось определить местоположение</string>
+    <string name="title_error_io">Предупреждение</string>
+    <string name="message_error_io">Для работы приложения требуется соеденение с интернетом</string>
+    <string name="title_error_server">Упс..</string>
+    <string name="not_found_data">По данному запросу ничего не найдено</string>
+    <string name="message_error_server">Не удалось соедениться с сервером либо некорректный запрос</string>
+
+    <string name="favorit_add">Добавлено в избранное</string>
+    <string name="favorit_delete">Удалено из избранного</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_loc</item>
+        <item>@string/nav_item_search</item>
+        <item>@string/nav_item_favorites</item>
+    </string-array>
+
+    <string name="locale">ru</string>
+    <string name="cloudness">Облачность:</string>
+    <string name="humidity">Влажность воздуха:</string>
+    <string name="pressure">Атмосферное давление:</string>
+    <string name="wind_speed">Скорость ветра:</string>
+
+</resources>

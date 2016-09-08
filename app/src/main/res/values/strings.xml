@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+
+    <string name="nav_item_loc">My location</string>
+    <string name="nav_item_search">Search city</string>
+    <string name="nav_item_favorites">Favorites</string>
+
+    <string name="example">"City or City, Country"</string>
+    <string name="fragment_today">Today</string>
+    <string name="fragment_five_days">For a five days</string>
+    <string name="fragment_sixteen_days">For a 16 days</string>
+    <string name="title_error_location">Ops..</string>
+    <string name="message_error_location">Failed to determine location</string>
+    <string name="title_error_io">warning</string>
+    <string name="message_error_io">To view this app requires an internet connection</string>
+    <string name="title_error_server">Ops..</string>
+    <string name="message_error_server">Sorry, could not connect to the server or incorrect query</string>
+
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_loc</item>
+        <item>@string/nav_item_search</item>
+        <item>@string/nav_item_favorites</item>
+    </string-array>
+    <!-- constants and key -->
+    <string name="api_key">03e2d0f61bbcce7e04123bcdd4fc7785</string>
+    <string name="city_name_key">0001</string>
+    <string name="location_key">0002</string>
+    <string name="type_data_key">0003</string>
+    <string name="n_a">n/a</string>
+    <string name="locale">en</string>
+
+    <string name="cloudness">Cloudiness:</string>
+    <string name="humidity">Air humidity:</string>
+    <string name="pressure">Atmosphere pressure:</string>
+    <string name="wind_speed">Wind speed:</string>
+    <string name="city_id_key">id</string>
+    <string name="not_found_data">On the request did not match</string>
+    <string name="favorit_add">Add to favorite</string>
+    <string name="favorit_delete">Removed from favorites</string>
+
+</resources>
